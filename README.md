@@ -1,6 +1,6 @@
 # Collaborative Filtering — Movie Recommender Systems
 
-Two assignments exploring classical and deep learning approaches to 
+Three assignments exploring classical and deep learning approaches to 
 collaborative filtering on the **MovieLens 100K** dataset.
 
 ## Projects:
@@ -22,6 +22,12 @@ CrossEntropyLoss over 5-fold cross-validation.
 [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/) — 
 100,000 ratings from 943 users on 1,682 movies, with 5 pre-defined 
 80/20 train/test splits.
+
+### 3. [`1bit-matrix-completion/`](./1bit-matrix-completion)
+**1-Bit Matrix Completion via FISTA + SVT**  
+Convex relaxation of an NP-hard binary matrix recovery problem using 
+logistic surrogate loss and proximal gradient methods with Nesterov acceleration.  
+> Converged in **37 iterations** | Test Sign Accuracy: **90.11%** | Exact rank-5 recovery
 
 ## Tech Stack
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
